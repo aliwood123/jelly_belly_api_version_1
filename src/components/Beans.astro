@@ -16,12 +16,12 @@ const jellyBeans = await res.json();
         <li class="card-item">
             
                 <h3 class="bean-name">{ bean.flavorName }</h3>
-                <div class="image-container">
+                <figure class="image-container">
                     <img src={bean.imageUrl} alt={bean.flavorName} />
-                </div>
-                <div class="card-overlay">
-                    <p class="bean-description">{bean.description}</p>
-                </div>
+                    <figcaption class="card-overlay">
+                        <p class="bean-description">{bean.description}</p>
+                    </figcaption>
+                 </figure>
         </li> 
         )
     }
