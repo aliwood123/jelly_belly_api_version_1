@@ -47,7 +47,7 @@ body > * {
     flex-direction: column;
   }
   
-  li:nth-child(9), li:nth-child(18), li:nth-child(56), li:nth-child(77) {
+  li:nth-child(9), li:nth-child(18), li:nth-child(27),li:nth-child(40),li:nth-child(56), li:nth-child(77), li:nth-child(99) {
     grid-row: span 2;
     border-color: var(--color-featured);
   }
